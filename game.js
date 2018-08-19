@@ -1,4 +1,4 @@
-//(function() {
+(function() {
     var canvas;
     var context;
 
@@ -565,4 +565,4 @@
         setInterval(SceneManager.UpdateScene, 1000 / fps);
     }
 
-//})();
+})();
