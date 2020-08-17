@@ -22,7 +22,7 @@
     }
 
     function Sprite(title, src, base64 = false) {
-        const gfxDir = 'gfx/';
+        const gfxDir = 'GFX/';
 
         var image = new Image();
         if(!base64)
@@ -38,7 +38,7 @@
     }
 
     function Sound(title, src, loop = false) {
-        const sfxDir = 'sfx/';
+        const sfxDir = 'SFX/';
 
         var sound = document.createElement('audio');
         sound.src = sfxDir + src;

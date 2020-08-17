@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gruniożerca - HTML5</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    html, body {
+        text-align: center;
+        height: 100%;
+        margin: 0;
+    }
+
+    #mainCanvas {
+        height: 80%;
+        image-rendering: pixelated;
+    }
+
+    .footer {
+        display: block;
+        color: gray;
+    }
+
+    .footer > a {
+        text-decoration: none;
+    }
+    </style>
+    <script type="text/javascript" src="font.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+</head>
+<body>
+    <canvas id="mainCanvas" width="80" height="64">
+    </canvas>
+    <span class="footer">
+        Ported by Mike7
+        <br/>
+        <a href="https://github.com/Mike-7/gruniozerca-html5">Source Code</a>
+        <p>
+            Controls:<br/>
+            WSAD - Move<br/>
+            J - Accept / Change Color
+        </p>
+    </span>
+</body>
+</html>
